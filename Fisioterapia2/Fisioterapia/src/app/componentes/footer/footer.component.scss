@@ -1,0 +1,21 @@
+/*====== Pie de página*/
+.footer-MaterialDark{
+    background-color: #263238;
+    padding-top: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+.footer-copyright{
+    height: 50px;
+    line-height: 50px;
+    font-weight: 300;
+} 
+.NavLateralDivider{
+    height: 0 !important;
+    width: 95% !important;
+    background-color: transparent;
+    border: none; 
+    border-top: 1px solid rgba(0,0,0,0.9);
+    border-bottom:1px solid rgba(255,255,255,0.08);
+    margin: 0 auto !important;  
+}

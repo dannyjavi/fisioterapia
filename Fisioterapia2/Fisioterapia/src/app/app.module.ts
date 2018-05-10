@@ -15,6 +15,9 @@ import { FormsComponent } from './componentes/forms/forms.component';
 import { NavlateralComponent } from './componentes/navlateral/navlateral.component';
 import { NotificationComponent } from './componentes/notification/notification.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { NavinfoComponent } from './componentes/navinfo/navinfo.component';
+import { PagecontentComponent } from './componentes/pagecontent/pagecontent.component';
+
 
 
 @NgModule({
@@ -30,13 +33,17 @@ import { FooterComponent } from './componentes/footer/footer.component';
     FormsComponent,
     NavlateralComponent,
     NotificationComponent,
-    FooterComponent
+    FooterComponent,
+    NavinfoComponent,
+    PagecontentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+  
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

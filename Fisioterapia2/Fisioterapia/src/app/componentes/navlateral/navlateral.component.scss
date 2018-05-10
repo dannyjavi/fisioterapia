@@ -1,0 +1,82 @@
+/*====== Navegación lateral*/
+.NavLateral{
+    left: 0;
+    width: 20%;
+    }
+.NavLateral-content{
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    background-color: rgb(33,33,33);
+    color: #C7C5C7;  
+}
+.NavLateral-title{
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background-color: rgb(233,76,61);
+    font-size: 25px;
+}
+.NavLateral-title-btn{
+    opacity: 0;
+}
+.NavLateral-logo{
+    padding: 20px 0;
+    color: #fff;
+    background-color: rgb(38,50,56);
+}
+.NavLateral-logo img{
+    width: 55%;
+    height: auto;
+    display: block; 
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid rgb(233,76,61);
+}
+.NavLateralDivider{
+    height: 0 !important;
+    width: 95% !important;
+    background-color: transparent;
+    border: none; 
+    border-top: 1px solid rgba(0,0,0,0.9);
+    border-bottom:1px solid rgba(255,255,255,0.08);
+    margin: 0 auto !important;  
+}
+.NavLateral-Nav ul li{
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.NavLateral-Nav ul li a{
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 9px;
+    display: block;
+    color: #C7C5C7;
+    transition: all .3s ease-in-out;
+}
+.NavLateral-Nav ul li a i{
+    font-size: 18px;
+}
+.NavLateral-Nav ul li a:hover{
+    color: #FFF;  
+    background-color: rgb(45,45,45); 
+}
+.NavLateral-CaretDown{
+    float: right;
+    line-height: 45px;
+    margin-right: 9px;
+    font-size: 20px !important;  
+}
+.NavLateral-CaretDownRotate{
+    transform: rotate(-180deg);   
+}
+.NavLateral-Nav > ul > li > ul{
+    background-color: rgb(38,50,56);
+    display: none;
+}
+.NavLateral-Nav > ul > li > ul > li > a{
+    padding-left: 19px;
+}
